@@ -81,7 +81,7 @@ body {
 
 .form ol li::before {
     content: "";
-    background: url("/assets/images/icon-list.svg") no-repeat;
+    background: url("./assets/images/icon-list.svg") no-repeat;
     width: 40px;
     aspect-ratio: 1;
     position: absolute;
