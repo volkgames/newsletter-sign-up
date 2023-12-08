@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+:root {
+    --clr-primary-tomato: hsl(4, 100%, 67%);
+
+    --clr-neutral-dsg: hsl(234, 29%, 20%);
+    --clr-neutral-cg: hsl(235, 18%, 26%);
+    --clr-neutral-grey: hsl(231, 7%, 60%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: "Roboto";
+    background: var(--clr-neutral-dsg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.success {
+    background: var(--clr-neutral-white);
+    max-width: 330px;
+    padding: 3em 3em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.success img {
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.success h1{
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--clr-neutral-dsg);
+    margin: 0;
+}
+
+.success p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--clr-neutral-cg);
+}
+
+.success p span {
+    font-weight: 700;
+    color: var(--clr-neutral-dsg);
+}
+
+.success button {
+    padding: 1em 2em;
+    background: var(--clr-neutral-dsg);
+    color: var(--clr-neutral-white);
+    font-weight: 400;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.form button:is(:hover, :active, :focus-visible) {
+    background: linear-gradient(to right, #ff5474, #ff673e);
+}
+
+@media screen and (orientation: portrait) {
+    .success {
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        padding: 1em 2em;
+    }
+
+    .success img {
+        margin-top: auto;
+    }
+
+    .success button {
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+}
