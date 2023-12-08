@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/volkgames/newsletter.github.io)
-- Live Site URL: [Github](https://volkgames.github.io/newsletter.github.io)
+- Solution URL: [Github](https://github.com/volkgames/newsletter-sign-up.github.io)
+- Live Site URL: [Github](https://volkgames.github.io/newsletter-sign-up.github.io/)
 
 ## My process
 
